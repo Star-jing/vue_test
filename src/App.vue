@@ -10,15 +10,21 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Box from './components/Box.vue'
-  import Img from './components/Img.vue'
-  import Tab from './components/Tab.vue'
-import Nav from './components/Nav.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Box from "./components/Box.vue";
+import Img from "./components/Img.vue";
+import Tab from "./components/Tab.vue";
+import Nav from "./components/Nav.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,Box,Img,Tab,Nav}
+    HelloWorld,
+    Box,
+    Img,
+    Tab,
+    Nav,
+  },
+};
 </script>
 
 <style>
