@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-  <Box/>
-  <Tab/>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Img/>
+    <Box />
+    <Tab />
+    <Nav />
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Img />
   </div>
 </template>
 
@@ -13,12 +14,11 @@ import HelloWorld from './components/HelloWorld.vue'
 import Box from './components/Box.vue'
   import Img from './components/Img.vue'
   import Tab from './components/Tab.vue'
+import Nav from './components/Nav.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,Box,Img,Tab
-}
-}
+    HelloWorld,Box,Img,Tab,Nav}
 </script>
 
 <style>
